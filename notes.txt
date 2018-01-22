@@ -1,0 +1,23 @@
+1.
+already has webpack? babel?
+looks like DOES NOT come with WEBPACK......?
+
+npm install
+
+npm install webpack?
+
+comes with the following:
+https://react-bootstrap.github.io/getting-started/introduction
+react react-dom react-bootstrap
+
+2. react-scripts
+installed 'react-scripts' because it adds a node_modules/.bin react-scripts binary which then looks for src/index.js and a public/html
+so had to remake a src/index.js (from src/index.jsx due to other tutorial) and public/index.html (it was in ./index.html not ./public/index.html)
+
+
+
+TODO
+Redux
+React-router
+Material UI (make available, maybe make an alternative front-end route that features it)
+Test a back-end REST API endpoint
