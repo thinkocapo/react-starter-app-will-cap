@@ -13,16 +13,16 @@ import { Button } from 'react-bootstrap'
 class App extends Component {
   render() {
     return (
-      <Button bsStyle='primary' bsSize='large'>Will-Cap Starter App</Button>
+      <Button bsStyle='primary' bsSize='large'>React Will-Cap Starter App</Button>
     )
   }
 }
-export default App
+// export default App
 
-// function mapStateToProps(state, ownProps) {
-//   return {
+function mapStateToProps(state, ownProps) {
+  return {
 
-//   }
-// }
-// const actions = {}
-// export default connect(mapStateToProps, actions)(App)
+  }
+}
+const actions = {}
+export default connect(mapStateToProps, actions)(App)
