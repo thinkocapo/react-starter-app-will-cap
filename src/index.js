@@ -11,7 +11,7 @@ import 'bootstrap/dist/css/bootstrap.css'
 // import './index.css';
 
 import reducers from './reducers';
-import App from './components/App'
+import App from './App'
 
 const createStoreWithMiddleware = applyMiddleware(ReduxPromise, thunkMiddleware)(createStore)
 

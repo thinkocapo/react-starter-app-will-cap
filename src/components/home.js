@@ -5,7 +5,7 @@ import { Button } from 'react-bootstrap'
 class Home extends Component {
     render () {
         return (
-            <Button bsStyle='primary' bsSize='large'>React's Will-Cap Starter App</Button>
+            <Button bsStyle='primary' bsSize='large'>React Will-Cap Starter App</Button>
         )
     }
 }

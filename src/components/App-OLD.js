@@ -19,8 +19,7 @@ class App extends Component {
           <Route exact path='/' component={Home} />
         </Switch>
       </Router>      
-
-)
+    )
   }
 }
 
