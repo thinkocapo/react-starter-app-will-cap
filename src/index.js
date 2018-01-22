@@ -5,7 +5,7 @@ import { applyMiddleware, createStore } from 'redux'
 import ReduxPromise from 'redux-promise'
 import thunkMiddleware from 'redux-thunk'
 import { BrowserRouter } from 'react-router-dom'
-
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 
 import 'bootstrap/dist/css/bootstrap.css'
 // import './index.css';
@@ -18,7 +18,9 @@ const createStoreWithMiddleware = applyMiddleware(ReduxPromise, thunkMiddleware)
 ReactDOM.render((
   <Provider store={createStoreWithMiddleware(reducers)}>
     <BrowserRouter>
-      <App />
+      <MuiThemeProvider>
+        <App />
+      </MuiThemeProvider>
     </BrowserRouter>
   </Provider>
 ), document.getElementById('app'))
