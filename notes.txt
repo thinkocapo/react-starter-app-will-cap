@@ -17,7 +17,16 @@ so had to remake a src/index.js (from src/index.jsx due to other tutorial) and p
 
 
 TODO
-Redux
+Redux - redux, react-redux
 React-router
 Material UI (make available, maybe make an alternative front-end route that features it)
 Test a back-end REST API endpoint
+
+
+Good Reading:
+https://github.com/nitishdayal/cra_closer_look
+deploying create-react-app to prod https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#deployment
+article on source maps http://blog.teamtreehouse.com/introduction-source-maps
+
+Good Reading, To-Read:
+https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#firebase
