@@ -2,6 +2,9 @@ import React, {Component} from 'react'
 import { connect } from 'react-redux'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Home from './components/home'
+import AboutMe from './components/about-me'
+import Portfolio from './components/portfolio'
+import Links from './components/links'
 
 // const App = ({ message = 'Hello Starter App!' }) => (
 //   <Button bsStyle='primary' bsSize='large'>{message}</Button>
@@ -17,6 +20,9 @@ class App extends Component {
       <Router>
         <Switch>
           <Route exact path='/' component={Home} />
+          <Route exact path='/about-me' component={AboutMe} />
+          <Route exact path='/portfolio' component={Portfolio} />
+          <Route exact path='/links' component={Links} />
         </Switch>
       </Router>      
     )

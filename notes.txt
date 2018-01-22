@@ -17,15 +17,16 @@ so had to remake a src/index.js (from src/index.jsx due to other tutorial) and p
 
 
 TODO
-Redux - redux, react-redux, redux-promise, redux-think
-React-router - react-router-dom, for BrowserRouter switch route
++Redux - redux, react-redux, redux-promise, redux-think
++React-router - react-router-dom, for BrowserRouter switch route
++Material UI
 
-Material UI (make available, maybe make an alternative front-end route that features it)
 Test a back-end REST API endpoint
+Redux functionality
+Redux-logger
+Routes about-me, portfolio, links, pull from hard-coded data in action/reducer, but indicate where DB call would be made to provide the data
 
-functionality for Redux.... loading data from DB? Firebase? or not
-add redux-logger
-
+------------------------------------------------------------------
 Good Reading:
 https://github.com/nitishdayal/cra_closer_look
 deploying create-react-app to prod https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#deployment

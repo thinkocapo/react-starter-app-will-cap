@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 import { Button } from 'react-bootstrap'
 
-class AboutMe extends Component {
+class Links extends Component {
     render () {
         return (
             <div>
-            <Button bsStyle='primary' bsSize='large'>AboutMe</Button>
+            <Button bsStyle='primary' bsSize='large'>Links</Button>
             </div>
         )
     }
 }
-export default AboutMe
+export default Links
 //<RaisedButton label="Button from Material-UI" />
