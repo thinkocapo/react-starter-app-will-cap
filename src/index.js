@@ -4,6 +4,7 @@ import { Provider } from 'react-redux'
 import { applyMiddleware, createStore } from 'redux'
 import ReduxPromise from 'redux-promise'
 import thunkMiddleware from 'redux-thunk'
+import { BrowserRouter } from 'react-router-dom'
 
 
 import 'bootstrap/dist/css/bootstrap.css'
@@ -16,7 +17,9 @@ const createStoreWithMiddleware = applyMiddleware(ReduxPromise, thunkMiddleware)
 
 ReactDOM.render((
   <Provider store={createStoreWithMiddleware(reducers)}>
-    <App />
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
   </Provider>
 ), document.getElementById('app'))
 // registerServiceWorker(); *TODO* Need this?

@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
 import { connect } from 'react-redux'
-import { Button } from 'react-bootstrap'
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import Home from './home'
 
 // const App = ({ message = 'Hello Starter App!' }) => (
 //   <Button bsStyle='primary' bsSize='large'>{message}</Button>
@@ -13,11 +14,21 @@ import { Button } from 'react-bootstrap'
 class App extends Component {
   render() {
     return (
-      <Button bsStyle='primary' bsSize='large'>React Will-Cap Starter App</Button>
-    )
+      <Router>
+        <Switch>
+          <Route exact path='/' component={Home} />
+        </Switch>
+      </Router>      
+
+)
   }
 }
-// export default App
+
+//<Route exact path='/' component={Home} />
+//<Route exact path='/login' render={() => <Login/>} />
+//<Route exact path='/implicit/callback' component={ImplicitCallback} />
+//<SecureRoute  path='/' component={CaseManager} />
+
 
 function mapStateToProps(state, ownProps) {
   return {
