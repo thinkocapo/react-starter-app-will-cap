@@ -5,10 +5,10 @@ class Body extends Component {
     render () {
         return (
             <div>
-            <Button bsStyle='primary' bsSize='large'>Body</Button>
+            <div>Welcome to My Site</div>
             </div>
         )
     }
 }
 export default Body
-//<RaisedButton label="Button from Material-UI" />
+//<Button bsStyle='primary' bsSize='small'>Body</Button>

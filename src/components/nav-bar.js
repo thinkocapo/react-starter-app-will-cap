@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom'
 import { Navbar, Nav, NavItem, NavDropdown, MenuItem } from 'react-bootstrap'
-import RaisedButton from 'material-ui/RaisedButton';
+// import RaisedButton from 'material-ui/RaisedButton';
 
 const navbarInstance = (
 	<Navbar>
 		<Navbar.Header>
 			<Navbar.Brand>
-				<a href="#home">My Site</a>
+				<a href="/">My Site</a>
 			</Navbar.Brand>
 		</Navbar.Header>
 		<Nav>
@@ -20,7 +20,7 @@ const navbarInstance = (
             <NavItem eventKey={3} href="#">
 				<Link to="/links">Links</Link>
 			</NavItem>
-			<NavDropdown eventKey={4} title="Dropdown" id="basic-nav-dropdown">
+			<NavDropdown eventKey={4} title="Options" id="basic-nav-dropdown">
 				<MenuItem eventKey={4.1}>Action</MenuItem>
 				<MenuItem eventKey={4.2}>Another action</MenuItem>
 				<MenuItem eventKey={4.3}>Something else here</MenuItem>
@@ -38,3 +38,5 @@ class NavBar extends Component {
     }
 }
 export default NavBar
+
+//<a href="#home">My Site</a>

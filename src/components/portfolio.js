@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Button } from 'react-bootstrap'
+import { ListGroup, ListGroupItem } from 'react-bootstrap'
 import NavBar from './nav-bar'
 
 class Portfolio extends Component {
@@ -7,10 +7,17 @@ class Portfolio extends Component {
         return (
             <div>
             <NavBar/>
-            <Button bsStyle='primary' bsSize='large'>Portfolio</Button>
+            <ListGroup>
+                <ListGroupItem header="Heading 1">Some body text</ListGroupItem>
+                <ListGroupItem header="Heading 2" href="#">
+                    Linked item
+                </ListGroupItem>
+                <ListGroupItem header="Heading 3" bsStyle="danger">
+                    Danger styling
+                </ListGroupItem>
+            </ListGroup>;
             </div>
         )
     }
 }
 export default Portfolio
-//<RaisedButton label="Button from Material-UI" />

@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import { Button } from 'react-bootstrap'
-import RaisedButton from 'material-ui/RaisedButton';
 
 import NavBar from './nav-bar'
 import Body from './body'

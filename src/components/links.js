@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Button } from 'react-bootstrap'
+// import { Button } from 'react-bootstrap'
 import NavBar from './nav-bar'
 
 class Links extends Component {
@@ -7,10 +7,13 @@ class Links extends Component {
         return (
             <div>
             <NavBar/>
-            <Button bsStyle='primary' bsSize='large'>Links</Button>
+            <ul>
+                <li>link1</li>
+                <li>link2</li>
+                <li>link3</li>
+            </ul>
             </div>
         )
     }
 }
 export default Links
-//<RaisedButton label="Button from Material-UI" />
