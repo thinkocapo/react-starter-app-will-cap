@@ -1,16 +1,14 @@
 import React, { Component } from 'react';
 import { Button } from 'react-bootstrap'
-import NavBar from './nav-bar'
 
-class Portfolio extends Component {
+class Body extends Component {
     render () {
         return (
             <div>
-            <NavBar/>
-            <Button bsStyle='primary' bsSize='large'>Portfolio</Button>
+            <Button bsStyle='primary' bsSize='large'>Body</Button>
             </div>
         )
     }
 }
-export default Portfolio
+export default Body
 //<RaisedButton label="Button from Material-UI" />
