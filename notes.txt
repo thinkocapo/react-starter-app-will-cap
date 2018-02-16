@@ -21,7 +21,7 @@ TODO
 +React-router - react-router-dom, for BrowserRouter switch route
 +Material UI
 
-Test a back-end REST API endpoint
+-back-end REST API call from /page's componentDidMount, hard-code the data response in express.js, make note of DB call, display response Links or pf description
 Redux functionality
 Redux-logger
 Routes about-me, portfolio, links, pull from hard-coded data in action/reducer, but indicate where DB call would be made to provide the data
