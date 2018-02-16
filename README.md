@@ -1,4 +1,6 @@
 # react-starter-app-will-cap
+![LandingPage](/src/img/landing-page.png)
+
 ### Why I Made This?
 Because each tutorial for things like Webpack, Babel, React-Boostrap only works in isolation from one another. The minute you try to integrate them all together you get many problems that need resolution. I spent a lot of time fixing all this so I figure'd I'd save it as my own starter/example app. Going to use this for a basic AboutMe website and other people can use it, and/or I can easily build $$$ people little static websites FAST using this.
 
